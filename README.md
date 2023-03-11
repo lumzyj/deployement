@@ -86,3 +86,10 @@ Completing the project involves several steps:
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
 For more detail about each of these steps, see the project lesson.
+
+External ip = ae1ca5f5fbd2449958c3f08732542e4c-1114078875.us-east-2.elb.amazonaws.com 
+
+.env_file content 
+
+ JWT_SECRET='myjwtsecret'
+  LOG_LEVEL=DEBUG
