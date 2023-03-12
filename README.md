@@ -91,5 +91,15 @@ External ip = ae1ca5f5fbd2449958c3f08732542e4c-1114078875.us-east-2.elb.amazonaw
 
 .env_file content 
 
- JWT_SECRET='myjwtsecret'
-  LOG_LEVEL=DEBUG
+ JWT_SECRET =
+{
+    "Parameter": {
+        "Name": "JWT_SECRET",
+        "Type": "SecureString",
+        "Value": "YourNewJWTSecret",
+        "Version": 3,
+        "LastModifiedDate": "2023-03-12T07:10:28.082000+01:00",
+        "ARN": "arn:aws:ssm:us-east-2:429526037446:parameter/JWT_SECRET",
+        "DataType": "text"
+    }
+}  
